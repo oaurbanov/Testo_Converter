@@ -1,0 +1,30 @@
+{
+
+  "_url" : "http://localhost/smartTags/php/registerMeasures.php",
+  "url" : "http://smarttags.osurval.upv.edu.es/php/registerMeasures.php",
+
+  "logsPath" : "logger.log",
+  "csvPath" : "tests/data_warm.csv",
+  "jsonPath" : "tests/data_warm.json",
+
+  "maxSamplesToSend" : 3000,
+
+  "Gateway": {
+    "gatewaySerial" : "A1000002"
+  },
+
+  "Tag": {
+    "TID" : "B2FF01234567890123456789",
+    "EPC" : "B2EE01234567890123456789",
+    "timeStamp": "1991-11-25 01:01:01"
+  },
+
+  "DataSet": {
+    "sensorType" : "temperature",
+    "logType" : "linear",
+    "timeStamp" : "1991-11-25 01:01:01",
+    "values" : [],
+    "timeStamps" : []
+  }
+
+}
